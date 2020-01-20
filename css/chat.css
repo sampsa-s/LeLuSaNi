@@ -1,0 +1,13 @@
+.container{
+    max-width: 960px;
+    background-color: rgb(177, 177, 177);
+}
+.active{
+    font-size: large;
+}
+footer{
+    background-color: lightgrey;
+}
+ul{
+    list-style: none;
+}
