@@ -1,5 +1,6 @@
 .container{
     max-width: 960px;
+    min-height: 900px;
     background-color: rgb(177, 177, 177);
 }
 .active{
@@ -19,14 +20,14 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
-  }
+}
   
-  td, th {
+td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
-  }
+}
   
-  tr:nth-child(even) {
+tr:nth-child(even) {
     background-color: #dddddd;
-  }
+}
