@@ -16,11 +16,11 @@ table {
   }
   
   td, th {
-    border: 1px solid #868686;
+    border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
   }
   
   tr:nth-child(even) {
-    background-color: #bb2e2e;
+    background-color: #dddddd;
   }
