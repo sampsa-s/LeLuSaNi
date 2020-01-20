@@ -3,8 +3,9 @@ a{
     
 }
 a:hover{
-    color:grey;
-    text-decoration: none;
+    -webkit-filter: grayscale(100%);filter: grayscale(100%);
+    color:rgb(53, 53, 53);
+    
 }
 
 
