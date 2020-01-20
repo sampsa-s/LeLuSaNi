@@ -5,3 +5,9 @@
 .active{
     font-size: large;
 }
+footer{
+    background-color: lightgrey;
+}
+ul{
+    list-style: none;
+}
