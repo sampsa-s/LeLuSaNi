@@ -1,12 +1,16 @@
+nav{
+    font-size:30px;
+}
+
 .container{
-    max-width: 960px;
-    min-height: 900px;
+   min-height: 100%;
     background-color: rgb(177, 177, 177);
 }
 .active{
-    font-size: large;
+    font-size: 40px;
 }
 footer{
+    
     background-color: lightgrey;
 }
 ul{
