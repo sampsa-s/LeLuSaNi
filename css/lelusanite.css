@@ -35,3 +35,7 @@ td, th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+.footer2{
+    background-color: rgb(255, 255, 255);
+    text-align: center;   
+}
