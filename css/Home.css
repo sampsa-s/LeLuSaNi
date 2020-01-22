@@ -4,9 +4,13 @@ a{
 }
 a:hover{
     color: black;
-    text-decoration: none;
+    text-decoration: underline;
+    
 }
-
+p{
+    text-decoration: underline;
+    
+}
 
 
 
