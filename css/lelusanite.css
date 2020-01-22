@@ -48,3 +48,11 @@ div.sticky {
     font-size: 25px;
     
   }
+  a:hover{
+    color: black;
+    text-decoration: none;
+}
+  a{
+    color:black;
+    
+}

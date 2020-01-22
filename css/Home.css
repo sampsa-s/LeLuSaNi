@@ -10,12 +10,5 @@ a:hover{
 
 
 
-div.sticky {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-    background-color: rgb(177, 177, 177);    
-    font-size: 25px;
-    
-  }
+
 
