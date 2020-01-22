@@ -7,15 +7,16 @@ a:hover{
     text-decoration: none;
 }
 
-.b{
-    border:20px solid black;
-    
-}
 
-.box{
-    background-color: rgb(177, 177, 177);
-    
-    
 
-}
+
+div.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background: rgb(177, 177, 177);
+    width: 200px;
+    height: 120px;
+   
+  }
 
