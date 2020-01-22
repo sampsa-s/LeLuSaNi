@@ -39,3 +39,20 @@ tr:nth-child(even) {
     background-color: rgb(255, 255, 255);
     text-align: center;   
 }
+
+div.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: rgb(177, 177, 177);    
+    font-size: 25px;
+    
+  }
+  a:hover{
+    color: black;
+    text-decoration: none;
+}
+  a{
+    color:black;
+    
+}
