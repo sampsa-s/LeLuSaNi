@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>LELUSANITE</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/signin.css">
+    <link rel="stylesheet" href="css/signup.css">
     <link rel="stylesheet" href="css/lelusanite.css">
 </head>
 
@@ -37,48 +37,51 @@
 
           <ul class="navbar-nav mr-auto">
           <span class="navbar-text"></span>
-            <li class="nav-item active">
-            <a class="nav-link" href="signin.html">Sign in<span class="sr-only">(current)</span></a>
-            </li>
             <li class="nav-item">
-                <a class="nav-link" href="signup.html">Sign up</a>
+            <a class="nav-link" href="signin.html">Sign in</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="signup.html">Sign up<span class="sr-only">(current)</span></a>
               </li>          
           </ul>
         </div>
     </nav>
 
-      <form action="action_page.php" method="post">
-           <!--<div class="imgcontainer">
-              <img src="img_avatar2.png" alt="Avatar" class="avatar">
-            </div>-->
-          
+        <form action="action_page.php">
             <div class="container">
-              <label for="uname"><b>Username</b></label>
-
-              <input type="text" placeholder="Enter Username.." name="uname" required><br>
+              <h1>Sign Up</h1>
+              <p>Please fill in this form to create an account.</p>
+              <hr>
+          
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
           
               <label for="psw"><b>Password</b></label>
               <br>
-              <input type="password" placeholder="Enter Password.." name="psw" required>
+              <input type="password" placeholder="Enter Password" name="psw" required>
               <br>
+              <label for="psw-repeat"><b>Repeat Password</b></label>
               <br>
-              <button type="submit">Login</button>
+              <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+          
               <label>
-                <input type="checkbox" checked="checked" name="remember"> Remember me
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
               </label>
           
-            <div class="container">
-              <button type="button" class="cancelbtn">Cancel</button>
-              <span class="psw">Forgot <a href="#">password?</a></span>
+              <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+          
+              <div class="clearfix">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Sign Up</button>
+              </div>
+              <br><br>
             </div>
-            <br><br>
-          </div>
-      </form>
+        </form> 
 
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
-
+ 
         <footer class="footer2">         
             <img src="images/cocacola.png" width="300px" style="margin:15px">
               <img src="images/apple.png" width="130px" style="margin:15px">
@@ -87,8 +90,6 @@
               <img src="images/redbull.png" width="200px" style="margin:15px">
               <img src="images/epic.png" width="130px" style="margin:15px">
           </footer>
-
-
     
         <center><footer> © 2020 Copyright</footer></center>
 </body>
