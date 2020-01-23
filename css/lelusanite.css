@@ -22,6 +22,8 @@ ul{
     list-style: none;
 }
 body{
+    background: rgb(178,22,228);
+    background: linear-gradient(0deg, rgba(178,22,228,1) 0%, rgba(180,40,105,1) 100%);
     background-image:url("space.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -78,6 +80,7 @@ div.sticky {
 .Logo{
     font-size: 20px;
     font-family: "Comic Sans MS", cursive, sans-serif;
+    color:white;
     
 }
 h2{
