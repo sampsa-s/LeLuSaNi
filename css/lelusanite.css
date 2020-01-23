@@ -62,14 +62,15 @@ div.sticky {
 }
 .socialMedia:hover{
     color:grey;
+    text-decoration: none;
 
 }
 .socialMediaFont{
     font-size: 27px;
     color:black;
 }
-h1{
-    
+.Logo{
+    font-size: 20px;
 }
 h2{
     color: black;
