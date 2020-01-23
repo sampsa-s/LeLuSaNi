@@ -46,8 +46,8 @@ tr:nth-child(even) {
 div.sticky {
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    top: 3rem;
-    background-color: rgb(177, 177, 177);  
+    top: 4rem;
+     
     font-size: 25px;
     
 }
