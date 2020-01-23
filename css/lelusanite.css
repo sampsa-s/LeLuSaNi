@@ -55,8 +55,10 @@ div.sticky {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 4rem;
-     
+    background-color:  #4a148c41;
     font-size: 25px;
+    border-radius: 25px;
+    
     
 }
 
