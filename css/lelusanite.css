@@ -20,7 +20,8 @@ ul{
     list-style: none;
 }
 body{
-    background-image:url("space.jpg");
+    background: rgb(178,22,228);
+    background: linear-gradient(0deg, rgba(178,22,228,1) 0%, rgba(180,40,105,1) 100%);
 }
 
 table {
