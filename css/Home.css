@@ -12,18 +12,32 @@ a:hover{
     
 }
 
+.desktop{
+    display: none;
+}
 
 
 
 
-#content-desktop {display: block;}
-#content-mobile {display: none;}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
 
-#content-desktop {display: none;}
-#content-mobile {display: block;}
-
+.mobile{
+    display: none;
+}
+.desktop{
+    display: block;
+}
+.stick {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top:4rem;
+    
+    font-size: 12px;    
+}
+li{
+    text-decoration: none;
+}
 }
 
 
