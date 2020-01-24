@@ -12,7 +12,33 @@ a:hover{
     
 }
 
+.desktop{
+    display: none;
+}
 
+
+
+
+
+@media screen and (max-width: 600px) {
+
+.mobile{
+    display: none;
+}
+.desktop{
+    display: block;
+}
+.stick {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top:4rem;
+    
+    font-size: 12px;    
+}
+li{
+    text-decoration: none;
+}
+}
 
 
 
