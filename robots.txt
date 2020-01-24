@@ -1,6 +1,6 @@
 #Group 1
 User-agent: Googlebot
-Disallow: / Home/
+Allow: /
 
 Group 2
 User-agent: *
