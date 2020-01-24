@@ -28,6 +28,9 @@ a:hover{
 .desktop{
     display: block;
 }
+.desktop1{
+    display: inline-flex;
+}
 .stick {
     position: -webkit-sticky; /* Safari */
     position: sticky;
@@ -35,8 +38,9 @@ a:hover{
     
     font-size: 12px;    
 }
-li{
-    text-decoration: none;
+
+.flex-container{
+    
 }
 }
 
