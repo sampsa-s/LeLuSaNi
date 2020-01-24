@@ -2,8 +2,8 @@
 User-agent: Googlebot
 Disallow: /Home/
 
-Group 2
+#Group 2
 User-agent: *
-Disallow: / Home /
+Disallow:/
 
 Sitemap: https: https://github.com/sampsa-s/LeLuSaNi/
