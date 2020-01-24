@@ -1,9 +1,9 @@
 #Group 1
 User-agent: Googlebot
-Allow: /
+Disallow: / Home/
 
 Group 2
 User-agent: *
 Disallow: / Home /
 
-Sitemap: https: https://github.com/sampsa-s/LeLuSaNi/blob/master/Home.html
+Sitemap: https: https://github.com/sampsa-s/LeLuSaNi/
