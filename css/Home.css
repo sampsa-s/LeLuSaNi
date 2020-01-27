@@ -34,14 +34,19 @@ a:hover{
 .stick {
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    top:4rem;
-    
-    font-size: 12px;    
+    top:0;
+    background-color:  rgb(177,177,177);
+    font-size: 12px;  
+   
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(177,177,177);
 }
 
-.flex-container{
-    
-}
+
+
 }
 
 
