@@ -39,11 +39,6 @@ a:hover{
     font-size: 12px;  
    
 }
-.flex-container{
-    display: flex;
-    flex-direction: column;
-    background-color:  rgb(177,177,177);
-}
 
 
 
