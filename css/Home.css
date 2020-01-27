@@ -16,7 +16,9 @@ a:hover{
     display: none;
 }
 
-
+.navbar{
+    z-index: 10;
+}
 
 
 
