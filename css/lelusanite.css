@@ -34,7 +34,8 @@ body{
 
 .footer2{
     background-color: rgb(255, 255, 255);
-    text-align: center;   
+    text-align: center; 
+    z-index: 2;  
 }
 
 div.sticky {
@@ -120,11 +121,16 @@ h3{
       .icon-bar a:hover {
         background-color: #000;
       }
+      /*End of some icon-bar*/
+
+
+
+
     
-    .center {
+    /*.center {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 100%;
-      }
-    }
+      }*/
+}

@@ -1,21 +1,22 @@
 .flex-container{
 display: flex;
-/*flex-direction: column;
-/*flex-wrap: row wrap;
-/*width: min-content;
-/*min-height: 100%;
-/*image-rendering: auto;*/
+flex-direction: column;
 }
-
+div.box{
+  max-width: 900px;
+}
 div.thumbnail {
-  min-height: 280px;
-  width: 250px;
+  min-height: 330px;
+  width: 290px;
   border: 1px solid #ccc;
-  margin-bottom: 76px;
+  margin-bottom: 15px;
+  padding: 2px;
 }
 
 div.thumbnail:hover {
-  border: 1px solid #777;
+  border: 1px solid #411877;
+  font-size: larger;
+
 }
 .desktop{
     display: none;
