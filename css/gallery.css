@@ -1,7 +1,7 @@
-/*.flex-container{
+.flex-container{
 display: flex;
 flex-direction: column;
-}*/
+}
 div.box{
   max-width: 900px;
 }
