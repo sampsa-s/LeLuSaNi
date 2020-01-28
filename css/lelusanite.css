@@ -24,7 +24,6 @@ ul{
 body{
     background: rgb(178,22,228);
     background: linear-gradient(0deg, rgba(178,22,228,1) 0%, rgba(180,40,105,1) 100%);
-    background-image:url("space.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
