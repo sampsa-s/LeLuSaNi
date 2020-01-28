@@ -1,17 +1,32 @@
 .flex-container{
 display: flex;
-flex-direction: column;
+/*flex-direction: column;
+/*flex-wrap: row wrap;
+/*width: min-content;
+/*min-height: 100%;
+/*image-rendering: auto;*/
 }
-.thumbnail{
-    min-height: 250px;
+
+div.thumbnail {
+  min-height: 280px;
+  width: 250px;
+  border: 1px solid #ccc;
+  margin-bottom: 76px;
+}
+
+div.thumbnail:hover {
+  border: 1px solid #777;
 }
 .desktop{
     display: none;
 }
+div.caption {
+  padding: 15px;
+  text-align: center;
+}
 
 
-
-
+/*some icon-bar*/
 @media screen and (max-width: 962px) {
 
     .mobile{
