@@ -5,3 +5,52 @@ flex-direction: column;
 .thumbnail{
     min-height: 270px;
 }
+.desktop{
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: block;
+    }
+    
+    /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+    .icon-bar {
+        position: fixed;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        background-color:    rgba(255, 255, 255, 0.507);
+        border-radius: 25px;
+      }
+      
+      /* Style the icon bar links */
+      .icon-bar a {
+        display: block;
+        text-align: center;
+        padding: 5px;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 20px;
+      }
+      
+      /* Style the social media icons with color, if you want */
+      .icon-bar a:hover {
+        background-color: #000;
+      }
+    
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+      }
+    }
