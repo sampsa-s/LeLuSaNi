@@ -77,10 +77,14 @@ a{
 p{
     font-family: sans-serif;
 }
+figcaption{
+font-family: sans-serif;
+}
 h2{
     color: black;
 }
 h3{
+    font-family: sans-serif;
     font-size: 18px;
 }
 .sign{
