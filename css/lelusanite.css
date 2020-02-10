@@ -45,13 +45,14 @@ div.sticky {
     position: sticky;
     top: 4rem;
     background-color:    rgba(255, 255, 255, 0.507);
+    font-family: sans-serif;
     font-size: 18px;
     border-radius: 25px;
     
     
 }
 
-  a:hover{
+a:hover{
     color: black;
     text-decoration: none;
 }
